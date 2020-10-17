@@ -38,7 +38,6 @@ public class Lista {
             Pessoa p = pessoas.get(i);
             if(p.getIdade() < 18) {
                 pessoas.remove(p);
-                break;
             }
         }
         for(Pessoa p : pessoas){
